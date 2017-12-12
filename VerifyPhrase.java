@@ -119,9 +119,11 @@ public class VerifyPhrase  implements RequestHandler<Map<String,Object>, Object>
 	    	if(mistakes.size()==1){
 	    		response = "Very close, you just missed 1 word. Repeat after me: "+mistakes.get(0);
 	    		sessionAttr.put("currentPhrase", mistakes.get(0));
+	    		sessionAttr.put("currentPhraseId",lexRequest.getSessionAttributes().get("currentPhraseId"));
 	    	}else{
 	    		response = "You made " + mistakes.size()+ " mistakes. Lets practice! Repeat after me: "+currentPhrase;
-	    		sessionAttr.put("currentPhrase",currentPhrase);
+	    		sessionAttr.put("currentPhrase",lexRequest.getSessionAttributes().get("currentPhrase"));
+	    		sessionAttr.put("currentPhraseId",lexRequest.getSessionAttributes().get("currentPhraseId"));
 	    	}
 	    	dialogAction.setType(DialogAction.ELICIT_SLOT_TYPE);
     		dialogAction.setSlotToElicit("speech");
