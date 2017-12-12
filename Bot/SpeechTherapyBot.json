@@ -1,0 +1,56 @@
+{
+    "status": "READY", 
+    "intents": [
+        {
+            "intentVersion": "1", 
+            "intentName": "Help"
+        }, 
+        {
+            "intentVersion": "1", 
+            "intentName": "SkipPhrase"
+        }, 
+        {
+            "intentVersion": "5", 
+            "intentName": "StartTherapy"
+        }, 
+        {
+            "intentVersion": "1", 
+            "intentName": "StopTherapy"
+        }, 
+        {
+            "intentVersion": "3", 
+            "intentName": "NextPhrase"
+        }, 
+        {
+            "intentVersion": "7", 
+            "intentName": "VerifySpeech"
+        }
+    ], 
+    "name": "SpeechTherapyBot", 
+    "locale": "en-US", 
+    "checksum": "55ea25f5-673d-488f-ac92-64ae276ad340", 
+    "abortStatement": {
+        "messages": [
+            {
+                "content": "Sorry, I'm not able to assist at this time", 
+                "contentType": "PlainText"
+            }
+        ]
+    }, 
+    "version": "1", 
+    "lastUpdatedDate": 1512971968.096, 
+    "createdDate": 1512971935.852, 
+    "clarificationPrompt": {
+        "maxAttempts": 2, 
+        "messages": [
+            {
+                "content": "I didn't understand you, what would you like to do?", 
+                "contentType": "PlainText"
+            }
+        ]
+    }, 
+    "voiceId": "Joanna", 
+    "childDirected": false, 
+    "idleSessionTTLInSeconds": 7200, 
+    "description": "Bot to help patients practice speaking"
+}

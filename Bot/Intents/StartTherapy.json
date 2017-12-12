@@ -1,0 +1,22 @@
+{
+    "name": "StartTherapy", 
+    "checksum": "5a590350-2418-4ff8-bc20-43d3801b3313", 
+    "version": "$LATEST", 
+    "lastUpdatedDate": 1512247112.497, 
+    "createdDate": 1510977089.442, 
+    "sampleUtterances": [
+        "start therapy", 
+        "lets go", 
+        "all systems a go", 
+        "start"
+    ], 
+    "slots": [], 
+    "fulfillmentActivity": {
+        "type": "CodeHook", 
+        "codeHook": {
+            "uri": "arn:aws:lambda:us-east-1:514388750990:function:GetFromPhrases", 
+            "messageVersion": "1.0"
+        }
+    }, 
+    "description": "Intent to initiate a session"
+}

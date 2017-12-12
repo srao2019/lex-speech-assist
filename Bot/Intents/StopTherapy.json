@@ -1,0 +1,34 @@
+{
+    "confirmationPrompt": {
+        "maxAttempts": 1, 
+        "messages": [
+            {
+                "content": "See you next time!", 
+                "contentType": "PlainText"
+            }
+        ]
+    }, 
+    "name": "StopTherapy", 
+    "checksum": "e188b689-8c1b-4f6e-9c9c-ed3df4cc258a", 
+    "version": "$LATEST", 
+    "rejectionStatement": {
+        "messages": [
+            {
+                "content": "Sorry, you can't stop now", 
+                "contentType": "PlainText"
+            }
+        ]
+    }, 
+    "createdDate": 1511025649.45, 
+    "lastUpdatedDate": 1511025649.45, 
+    "sampleUtterances": [
+        "stop therapy", 
+        "stop", 
+        "quit"
+    ], 
+    "slots": [], 
+    "fulfillmentActivity": {
+        "type": "ReturnIntent"
+    }, 
+    "description": "Intent to stop a session"
+}

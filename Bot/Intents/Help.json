@@ -1,0 +1,18 @@
+{
+    "name": "Help", 
+    "checksum": "e26f82e2-d05d-4a76-9bca-e847a8c63933", 
+    "version": "$LATEST", 
+    "lastUpdatedDate": 1512235514.919, 
+    "createdDate": 1512227728.197, 
+    "sampleUtterances": [
+        "help"
+    ], 
+    "slots": [], 
+    "fulfillmentActivity": {
+        "type": "CodeHook", 
+        "codeHook": {
+            "uri": "arn:aws:lambda:us-east-1:514388750990:function:HelpPrompt", 
+            "messageVersion": "1.0"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "NextPhrase", 
+    "checksum": "3742a071-17d4-45cc-b57a-944b1d04372c", 
+    "version": "$LATEST", 
+    "lastUpdatedDate": 1512197001.079, 
+    "createdDate": 1512195825.844, 
+    "sampleUtterances": [
+        "next", 
+        "another", 
+        "anotha one"
+    ], 
+    "slots": [], 
+    "fulfillmentActivity": {
+        "type": "CodeHook", 
+        "codeHook": {
+            "uri": "arn:aws:lambda:us-east-1:514388750990:function:GetFromPhrases", 
+            "messageVersion": "1.0"
+        }
+    }
+}

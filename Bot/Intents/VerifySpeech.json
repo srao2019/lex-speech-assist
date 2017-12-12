@@ -1,0 +1,34 @@
+{
+    "name": "VerifySpeech", 
+    "checksum": "314da5f1-6214-4c72-9194-05026cbe337f", 
+    "version": "$LATEST", 
+    "lastUpdatedDate": 1512194416.597, 
+    "createdDate": 1512184370.834, 
+    "sampleUtterances": [], 
+    "slots": [
+        {
+            "slotType": "catchAll", 
+            "name": "speech", 
+            "slotConstraint": "Required", 
+            "valueElicitationPrompt": {
+                "maxAttempts": 2, 
+                "messages": [
+                    {
+                        "content": "Repeat after me", 
+                        "contentType": "PlainText"
+                    }
+                ]
+            }, 
+            "priority": 1, 
+            "slotTypeVersion": "1", 
+            "sampleUtterances": []
+        }
+    ], 
+    "fulfillmentActivity": {
+        "type": "CodeHook", 
+        "codeHook": {
+            "uri": "arn:aws:lambda:us-east-1:514388750990:function:VerifyPhrase", 
+            "messageVersion": "1.0"
+        }
+    }
+}

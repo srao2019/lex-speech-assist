@@ -1,0 +1,127 @@
+{
+    "enumerationValues": [
+        {
+            "synonyms": [], 
+            "value": "i want pizza"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "bandaid"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "church"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "can we go home"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "i want to eat cookies"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "can you help me"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "box was wrapped and small"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "Where are you"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "Good morning"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "when are you coming home"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "school"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "goodnight"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "please teach me to swim"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "Roger"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "i want to go home"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "Put it in the fridge"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "lets go out for dinner"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "Fox"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "Jim"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "camping trip"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "she was from new mexico"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "blue"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "wheres the paper"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "helllo"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "she was from france"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "hello"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "dog"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "Principal"
+        }, 
+        {
+            "synonyms": [], 
+            "value": "good day sir"
+        }
+    ], 
+    "name": "catchAll", 
+    "checksum": "d85e371c-6066-4e1c-90a6-ed420d299141", 
+    "version": "$LATEST", 
+    "lastUpdatedDate": 1512187495.988, 
+    "createdDate": 1512187495.988, 
+    "valueSelectionStrategy": "ORIGINAL_VALUE", 
+    "description": "catches all"
+}
