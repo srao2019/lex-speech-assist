@@ -43,7 +43,7 @@ public class AddToPhrases {
         
         HashMap<Integer,Map<String,AttributeValue>> phrases = new HashMap<Integer,Map<String,AttributeValue>>();
         int id = 2;
-        FileReader fr = new FileReader("C:\\Users\\Sahana\\SpeechTherapy\\phrases.txt");
+        FileReader fr = new FileReader("C:\\Users\\Sahana\\SpeechTherapy\\easy_phrases.txt");
         BufferedReader br = new BufferedReader(fr);
         String line;
         while((line = br.readLine()) != null){

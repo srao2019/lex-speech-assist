@@ -1,0 +1,112 @@
+/*CSS Stylesheet*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+h1{
+    text-align:center;
+    vertical-align: middle;
+    font-size: 145%;
+    padding-top:25px;
+    padding-left:10%;
+    padding-right:5%;
+    text-shadow: 2px 2px 10px #000000;
+    color: rgb(20, 46, 89);
+    font-weight:bold;
+    font-size:250%
+}
+body {
+    font-family: Helvetica, sans-serif; 
+    font-size: 100%;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top:5px;
+    margin-bottom:85px;
+}
+
+head{
+    font-family: Helvetica, sans-serif; 
+    font-size: 125%;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom:85px;
+    padding-top:5px;
+}
+
+#navBar li{
+    display: inline;
+    float: left;
+}
+#navBar li a:visited{
+    color: black;
+}
+#navBar li a:active{
+    color:black;
+}
+#navBar li a{
+    margin-left:auto;
+    margin-right:auto;
+    width: 400px;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: rgb(185, 204, 234);
+}
+#navBar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(185, 204, 234);
+}
+
+table{
+    border-collapse:collapse;
+    table-layout:fixed;
+    width:100%;
+}
+#footer {
+   display: block;
+   position: absolute;
+   background-color: rgb(185, 204, 234);
+   width:1268px;
+   height:65px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom:5px;
+   bottom:0;
+   left:20px;
+   
+}
+table{
+    border: solid 2px black;
+    border-collapse:collapse;
+    text-align: center;
+    width: auto;
+    
+}
+table td,th{
+    width: 300px;
+    border: solid 2px black;
+    text-align: center;
+    align-content: center;
+}
+#user{
+   width:45%;
+   float: left;
+}
+#bot{
+    width:45%;
+    float: left;
+}
+canvas {
+       height: 100px;
+       width: 100vw;
+       margin-top: -50px;
+       display: block;
+       position: fixed;
+       top: 50%;
+       left: 0;
+       z-index: -1;
+   }

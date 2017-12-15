@@ -67,18 +67,27 @@ public class GetFromPhrases implements RequestHandler<Map<String,Object>, Object
 	    String opener = "";
 	    String phrase = "";
 	    String phraseId = "";
-	    if(lexRequest.getSessionAttributes().containsKey("currentPhrase")
-	    		&& lexRequest.getCurrentIntent().equals("StartTherapy")){
+	    String uid = "";
+	    if(lexRequest.getUserId()!=null){
+	    	uid = lexRequest.getUserId();
+	    }else{
+	    	uid = "1";
+	    	lexRequest.setUserId(uid);
+	    }
+	    if(lexRequest.getSessionAttributes()!=null 
+	    		&& lexRequest.getSessionAttributes().containsKey("currentPhrase")
+	    		&& lexRequest.getCurrentIntent().equals("StartTherapy") 
+	    		&& !lexRequest.getInputTranscript().equals("skip")){
 	    	opener = "You're already in a session. ";
 	    	phrase = lexRequest.getSessionAttributes().get("currentPhrase");
 	    	phraseId = lexRequest.getSessionAttributes().get("currentPhraseId");
-	    }else if(lexRequest.getCurrentIntent().equals("StartTherapy") || 
-	    		lexRequest.getInputTranscript().equals("start")){
-	    	opener = "Great, lets start! ";
-	    }else if(lexRequest.getCurrentIntent().equals("NextPhrase")){
+	   
+	    }else if(lexRequest.getCurrentIntent()!=null && lexRequest.getCurrentIntent().equals("NextPhrase")){
 	    	opener = "Great, ";
-	    }else if(lexRequest.getInputTranscript().equals("skip")){
+	    }else if(lexRequest.getInputTranscript()!=null && lexRequest.getInputTranscript().equals("skip")){
 	    	opener = "Ok, how about this. ";
+	    } else{
+	    	opener = "Great, lets start! ";
 	    }
 	    try {
 			init();

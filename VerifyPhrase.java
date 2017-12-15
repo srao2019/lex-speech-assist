@@ -91,7 +91,7 @@ public class VerifyPhrase  implements RequestHandler<Map<String,Object>, Object>
 	    	HashMap<String, Condition> scanFilter = new HashMap<String, Condition>();
 	    	Condition conditionUid = new Condition()
 	    				.withComparisonOperator(ComparisonOperator.EQ.toString())
-	    				.withAttributeValueList(new AttributeValue().withN("1"));
+	    				.withAttributeValueList(new AttributeValue().withN(lexRequest.getUserId()));
 	        Condition conditionPid = new Condition()
 	        			.withComparisonOperator(ComparisonOperator.EQ.toString())
 	        			.withAttributeValueList(new AttributeValue().withN(lexRequest.getSessionAttributes().get("currentPhraseId")));
@@ -107,7 +107,7 @@ public class VerifyPhrase  implements RequestHandler<Map<String,Object>, Object>
 		    	currCount = "0";
 		    }
 	    	Map<String,AttributeValue> item = new HashMap<String,AttributeValue>();
-        	item.put("uid",new AttributeValue().withN("1"));
+        	item.put("uid",new AttributeValue().withN(lexRequest.getUserId()));
 	    	item.put("pid",new AttributeValue().withN(lexRequest.getSessionAttributes().get("currentPhraseId")));
         	item.put("num",new AttributeValue().withN(new Integer(currCount+1).toString()));
         	PutItemRequest putItemRequest = new PutItemRequest("PhraseScores",item);
