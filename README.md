@@ -31,12 +31,14 @@ The tables in DynamoDB were configured on the AWS DynamoDB console following the
 Phrases
 * pid (partition key)
 * phrase
-<br>
+
+
 PhraseScores
 * uid (partition key)
 * pid (sort key)
 * num
-<br>
+
+
 Users
 * username (partition key)
 * uid
