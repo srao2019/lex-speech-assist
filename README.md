@@ -29,16 +29,16 @@ The tables in DynamoDB were configured on the AWS DynamoDB console following the
 3. 3 Tables were created with the following schemas:
 
 Phrases
- -pid (partition key)
- -phrase
+* pid (partition key)
+* phrase
 PhraseScores
- -uid (partition key)
- -pid (sort key)
- -num
+* uid (partition key)
+* pid (sort key)
+* num
 Users
- -uid
- -username (partition key)
- -password
+* username (partition key)
+* uid
+* password
  
  4. The Phrase table was loaded with phrases through a Java application written with DynamoDB Java SDK. 
  5. The updates through the webapp including, creating a user, updating scores, viewing scores, and updating phrases was done in PHP with the DynamoDB PHP SDK. 
