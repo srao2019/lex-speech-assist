@@ -7,6 +7,11 @@ Children and adults all over the world suffer from speech disorders. These can b
 <strong>Product Design</strong><br>
 Lex Speech Assistant is designed to provide individuals with a means to practice phrases and improve their speech on their own and anywhere. It is not intended to replace speech therapy, but merely provide an additional means for individuals to improve speech. It is currently built in with 100 simple, commonly used phrases, as well as contains the feature to add user-defined phrases. The web application has a login page which then takes users to their secure account page to practice. Here, users are able to interact with the Lex bot as it asks them phrases and then listens for their responses. Lex responds by providing the number of mistakes it heard in the user's input message. The user can also see the text of the phrase to say if for any reason they're unable to understand the bot. In a session with the bot, users have the option to skip or repeat a phrase, ask for help, or stop the session at anytime. On the "View Progress" page, users can see which phrases they have successfully completed and how many times. On the "Add Phrases" page, users have the ability to add custom phrases to Lex's database of phrases. Lex randomly retrieves a phrase based on the one ones that the user has not done successfully yet or has minimum success counts with. Addition of a phrase on this page will add it to the database here to be retrieved in the same random method.
 
+![Image of Webapp](https://github.com/srao2019/lex-speech-assist/blob/master/homescreen.JPG)
+
+<strong>How to Use</strong><br>
+With xampp, and the AWS SDK for PHP installed with the vendor/autoloader.php file configured in the root of "C://xampp/", the webapp can be run by running the login.php page. This opens the login page which after successful access, a user will be navigated to the chatbot homepage. 
+
 <strong>Architecture</strong><br>
 Lex Speech Assistant is implemented through a combination of AWS services. The chatbot was created using Amazon Lex with functionality defined through AWS Lambda. The database of phrases and progress scores is managed through Amazon DynamoDB. 
 ![Image of Architecture](https://github.com/srao2019/lex-speech-assist/blob/master/architecture.png)
