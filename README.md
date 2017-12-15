@@ -3,6 +3,7 @@ Lex Speech Assistant is a web application with an integrated Amazon Lex chatbot 
 
 ## Deliverables
 [Project Proposal](https://github.com/srao2019/lex-speech-assist/blob/master/Virtual%20Speech%20Therapy%20-%20CMSC389L%20Proposal.pdf)
+
 [Checkpoint Report](https://github.com/srao2019/lex-speech-assist/blob/master/AWS%20Final%20Project%20Checkpoint.pdf)
 
 ## Inspiration
