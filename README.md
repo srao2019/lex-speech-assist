@@ -58,6 +58,9 @@ Users
 ## Challenges
 The most challenging part of this was building and testing the Lex chatbot. As it was defined by the Lambda functions, it was difficult to detect on the console where exactly the functions were failing or if the Lex bot itself was just not understanding the input correctly. This was also challenging to test, as Lex would succeed and fail inconsistently when speaking to it and respond differently when typing to it. Another challenge I had was getting it to run remotely on an EC2 server, rather than just locally on my computer. As it relies on sending HTTP requests to Amazon Lex and DynamoDB, it is affected by the network connection of the local machine and can therefore affect its performance.
 
+## What I learned
+I had never used AWS services intensely before this nor had I ever worked with chatbots of any sort. I learned a lot about how the various services can be integrated together, and be able to work with the various SDKs to communicate with the services. I also learned about how chatbots work with various configured intents, utterances, and slots. 
+
 ## Future Directions and Areas for Improvement
 1. In order to make the app more portable, it would be better suited as a mobile app. This could be created through development of an Android app that allows users to interact with the chatbot on their phone. 
 2. Lex does not always here the user very clearly. As this is standard defined by AWS Lex, the only way to improve this would be to provide more data for it to learn from.
