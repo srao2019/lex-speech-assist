@@ -6,6 +6,8 @@ Lex Speech Assistant is a web application with an integrated Amazon Lex chatbot 
 
 [Checkpoint Report](https://github.com/srao2019/lex-speech-assist/blob/master/AWS%20Final%20Project%20Checkpoint.pdf)
 
+[Video Demo](https://youtu.be/J5Ccq4rBJW8)
+
 ## Inspiration
 *“Nearly 5 percent of U.S. children ages 3-17 have had a speech disorder in the past 12 months.”* (NIDCD, 2016)
 Children and adults all over the world suffer from speech disorders. These can be related to muscle weakness or connections between the brain and the organs that control speech. Speech disorders can commonly occur in association with other genetic diseases, or after a traumatic injury. Speech disorders are most commonly treated with speech therapy, where a speech therapist listens for articulation and pronunciation issues in order to help patients learn to say common phrases. While it is available, speech therapy can be very expensive, and without insurance coverage, this cost increases even more. Furthermore, patients could often use more practice than they can afford to pay therapy for, creating the need for a simple, portable way to practice and improve speech.
