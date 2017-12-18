@@ -5,36 +5,34 @@ Goodnight
 How are you
 See you later
 Who is this 
-Whats up
-Help me 
 Thank you 
 No thank you
 Yes please
-Youre welcome
+You are welcome
 Sure I hope so 
 Take care 
-Im ready 
+I am ready 
 Not today
 Can you get that 
-Youre kidding 
+You are kidding 
 Why do you ask 
 Do you see it 
-Im not sure
+I am not sure
 Could you get that 
 Do you know him 
 Happy Birthday
 Not too good 
-Its over there 
-Wheres the paper
+It is over there 
+Where is the paper
 Please go to the store 
 Better than before 
 It is time to go
 Who is on the phone 
 I have to go to the bathroom 
 I am not feeling well
-Lets go out tonight
+Let us go out tonight
 How was your day
-Lets have chicken for dinner tonight
+Let us have chicken for dinner tonight
 It was nice to meet you
 Could you help me with this
 Did you get that
@@ -47,7 +45,7 @@ Who was that
 Have a good day
 What time is it
 Would you do that for me
-Its so good to see you
+It is so good to see you
 Did you lock the door
 That was so nice of you
 Could you turn off the television
@@ -56,7 +54,7 @@ Is the air conditioning on
 What will you have to drink
 I would like to order a pizza
 What time will you be home
-Whats the weather like outside
+What is the weather like outside
 I am hungry
 Turn off the lights when you come up
 What time will you be home
@@ -75,16 +73,16 @@ Today is Friday
 Today is Saturday
 Today is Sunday
 I am coming home on Saturday
-Theres no school on Monday
+There is no school on Monday
 The dog has brown fur
 The cat has gray fur
 The pizza has pineapple on it
-Its sunny outside
-Its raining
-Its cloudy
-Its very cold outside
-Its too hot outside
-The temperature is 80 degrees
+It is sunny outside
+It is raining
+It is cloudy
+It is very cold outside
+It is too hot outside
+The temperature is eighty degrees
 I want to travel to Asia
 Can I get you anything
 I cleaned my room
