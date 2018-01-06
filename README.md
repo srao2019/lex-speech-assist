@@ -70,6 +70,6 @@ I had never used AWS services intensely before this nor had I ever worked with c
 
 ## Future Directions and Areas for Improvement
 1. In order to make the app more portable, it would be better suited as a mobile app. This could be created through development of an Android app that allows users to interact with the chatbot on their phone. 
-2. Lex does not always here the user very clearly. As this is standard defined by AWS Lex, the only way to improve this would be to provide more data for it to learn from.
+2. Lex does not always hear the user very clearly. As this is standard defined by AWS Lex, the only way to improve this would be to provide more data for it to learn from.
 3. Lex only listens for a short period of time, and cannot accept more than a certain amount of sound input. For users that have a speech impairment and talk slowly or very incoherently, it might not be able to detect their speech very well. Would be great if the chatbot could be adjusted to accomodate for this.  
 
